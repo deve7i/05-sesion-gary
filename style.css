@@ -1,0 +1,93 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #999;
+  padding: 10px 20px;
+}
+
+.titulo {
+  text-align: left;
+}
+.titulo h1 {
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.titulo h1 span {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.menu ul li {
+  display: inline;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.menu ul li a:hover {
+  color: #0b63d6;
+  text-decoration: underline;
+}
+
+/*star war*/
+.contenedor {
+  border: 1px solid #000;
+  width: 65%;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.logo {
+  display: block;
+  width: 180px;
+  margin-bottom: 25px;
+}
+
+/* enlaces con palabras*/
+section {
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #0033cc;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+ol {
+  margin-left: 25px;
+}
+
+ol li {
+  margin: 6px 0;
+}
+
+ol li a {
+  text-decoration: none;
+  color: #000;
+}
+
+ol li a:hover {
+  color: #0033cc;
+  text-decoration: underline;
+}
+
